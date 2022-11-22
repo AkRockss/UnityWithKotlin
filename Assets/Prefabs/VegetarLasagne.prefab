@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6773045361946900685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 225743778204848478}
+  - component: {fileID: 466021464433344990}
+  - component: {fileID: 1654753570966803322}
+  - component: {fileID: 3170334350601787440}
+  m_Layer: 0
+  m_Name: VegetarLasagne
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &225743778204848478
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6773045361946900685}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.51, y: 28.86, z: -0.8}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &466021464433344990
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6773045361946900685}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!102 &1654753570966803322
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6773045361946900685}
+  m_Text: "\rVegetar lasagne opskrift.\r\n\r\nBechamel sauce\nIngredienser\n\n1 liter
+    m\xE6lk\r\n6 spsk mel\r\n6 spsk sm\xF8r 100g cirka.\r\n1/4 revet muskatn\xF8d.
+    En tske, kan udelades. \r\nsalt & peber til at smage til med.\r\n\r\nFremgangsm\xE5de\r\n\r\nSmelt
+    sm\xF8rret i en gryde.\r\nR\xF8r melet ud i sm\xF8rret.\r\nLad sm\xF8rret bruse
+    op og lad det simre et minuts tid. Melet m\xE5 ikke tage farve.\r\nTils\xE6t
+    langsomt m\xE6lken under omr\xF8ring.\r\nBring det i kog, og lad det koge et
+    par minutter.\r\nR\xF8r godt rundt imens s\xE5 alle klumper bliver r\xF8rt ud,
+    og sovsen bliver tykkere.\r\nSmag den til. Skal v\xE6re meget tyk. Kan blive
+    tilsat parmesanost. \r\nS\xE6ttes til side. \r\n\r\nLasagnefyld\r:\nIngredienser\r\n\r\n4
+    squash\r\n4 aubergine\r\n5 guler\xF8der\r\n5 l\xF8g \r\n5 fed hvidl\xF8g \r\n4
+    ds tomat fl\xE5et Salt og peber \r\n\r\nFremgangsm\xE5de\r\n\r\nSk\xE6r ender
+    af squash og aubergine. \nDerefter sk\xE6res de p\xE5 langs \xE1 skiver p\xE5
+    cirka 2-3 cm. \nHver is\xE6r brunes de af p\xE5 en varm pande i olie. \nHusk
+    at give dem salt og peber. \nS\xE6ttes til side. \r\n\r\nTomat Sauce.\r\n\r\nSk\xE6r
+    l\xF8g og guler\xF8dder i tern. \nSk\xE6r hvidl\xF8g fint.\nBrun det hele af
+    i en gryde med olie og salt og peber. \nN\xE5r indholdet er brunede tils\xE6ttes
+    tomat. \nKog nu i et par minutter og blend det derefter. \nSmag til med salt
+    og peber. \nS\xE6t til side.\r\n\r\nFind nu et dybt fad hvori lasagnen skal v\xE6re.
+    \nFind lasagne bunde frem og alt det f\xE6rdige indhold.\r\n\r\nNu samler du
+    hele molevitten. \nTomatsauce i bunden efterfulgt af bechamel. \nDerefter lasagneplade,
+    derefter Tomatsauce, bechamel, courgette, auberginer, bechamel, \nlasagneplade,
+    osv osv. Hav b\xE5de revet mozzeralla til toppen og parmesanost til mellem lagene
+    klar. \nDet er op til dig hvor meget ost der skal p\xE5.\n N\xE5r du har fyldt
+    fadet. Skal det i ovnen og \nbages til at osten ovenp\xE5 er blevet brunet og
+    \nlasagne pladerne m\xF8re. \nVelbekomme. "
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 0
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 0
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!114 &3170334350601787440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6773045361946900685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb898793194e03f4bb10dba03ec2cb70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DestroyOnRemoval: 1

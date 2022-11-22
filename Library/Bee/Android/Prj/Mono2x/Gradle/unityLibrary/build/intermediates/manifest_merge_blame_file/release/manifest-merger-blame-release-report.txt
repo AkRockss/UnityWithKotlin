@@ -1,0 +1,159 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="0.0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="24"
+9-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:3-52
+12-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-49
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-65
+14-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:20-62
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-77
+15-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:20-74
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-63
+16-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:20-60
+17
+18    <uses-feature
+18-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-83
+19        android:name="android.hardware.camera"
+19-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-55
+20        android:required="false" />
+20-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:56-80
+21    <uses-feature
+21-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-93
+22        android:name="android.hardware.camera.autofocus"
+22-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-65
+23        android:required="false" />
+23-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:66-90
+24    <uses-feature
+24-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-89
+25        android:name="android.hardware.camera.front"
+25-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-61
+26        android:required="false" />
+26-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:62-86
+27    <uses-feature
+27-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-88
+28        android:name="android.hardware.touchscreen"
+28-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-60
+29        android:required="false" />
+29-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:61-85
+30    <uses-feature
+30-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-99
+31        android:name="android.hardware.touchscreen.multitouch"
+31-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-71
+32        android:required="false" />
+32-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:72-96
+33    <uses-feature
+33-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-108
+34        android:name="android.hardware.touchscreen.multitouch.distinct"
+34-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:17-80
+35        android:required="false" />
+35-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:81-105
+36    <uses-feature
+36-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-85
+37        android:name="android.hardware.camera.ar"
+37-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-58
+38        android:required="true" />
+38-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:59-82
+39
+40    <application android:extractNativeLibs="true" >
+40-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-19:17
+40-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+41        <activity
+41-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
+42            android:name="com.unity3d.player.UnityPlayerActivity"
+42-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+43            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+43-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+44            android:hardwareAccelerated="false"
+44-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:397-432
+45            android:launchMode="singleTask"
+45-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+46            android:resizeableActivity="false"
+46-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-396
+47            android:screenOrientation="fullUser"
+47-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+48            android:theme="@style/UnityThemeSelector" >
+48-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+49            <intent-filter>
+49-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+50-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+52-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+53            </intent-filter>
+54
+55            <meta-data
+55-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+56                android:name="unityplayer.UnityActivity"
+56-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+57                android:value="true" />
+57-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+58            <meta-data
+58-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+59                android:name="android.notch_support"
+59-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+60                android:value="true" />
+60-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+61        </activity>
+62
+63        <meta-data
+63-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
+64            android:name="unity.splash-mode"
+64-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+65            android:value="0" />
+65-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
+66        <meta-data
+66-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
+67            android:name="unity.splash-enable"
+67-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
+68            android:value="True" />
+68-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+69        <meta-data
+69-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
+70            android:name="unity.launch-fullscreen"
+70-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
+71            android:value="True" />
+71-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+72        <meta-data
+72-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
+73            android:name="unity.allow-resizable-window"
+73-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
+74            android:value="False" />
+74-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
+75        <meta-data
+75-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
+76            android:name="notch.config"
+76-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
+77            android:value="portrait|landscape" />
+77-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
+78        <meta-data
+78-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-77
+79            android:name="com.google.ar.core"
+79-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-49
+80            android:value="required" />
+80-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:50-74
+81        <meta-data
+81-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-88
+82            android:name="unityplayer.SkipPermissionsDialog"
+82-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-64
+83            android:value="true" />
+83-->C:\Users\ut5\Desktop\UnityPrograms\ARSpecifikOpskriftViserWithTextRec\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:65-85
+84    </application>
+85
+86</manifest>
